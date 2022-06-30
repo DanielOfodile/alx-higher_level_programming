@@ -1,7 +1,7 @@
-i#!/usr/bin/python3
+#!/usr/bin/python3
 from calculator_1 import add, sub, mul, div
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     """
 
     Prints the result of some math operations on two integers.
