@@ -3,15 +3,17 @@
 """
 A module that returns the area and perimeter of a rectangle
 """
+
+
 class Rectangle:
     """A Rectangle class that returns its area and perimeter"""
 
     def __init__(self, width=0, height=0):
         """initialises and sets some parameters"""
-        
+
         self.width = width
         self.height = height
-    
+
     @property
     def width(self):
         """gets the width of the rectangle"""
@@ -45,7 +47,7 @@ class Rectangle:
             raise ValueError('height must be >= 0')
 
         self.__height = value
-    
+
     def area(self):
         """returns area of the rectangle"""
         return (self.__width * self.__height)
