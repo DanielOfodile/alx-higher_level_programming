@@ -47,4 +47,4 @@ def convert_to_int(num):
         num = int(num)
         return num
 
-    return num    
+    return num
