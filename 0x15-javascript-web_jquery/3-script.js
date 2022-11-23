@@ -1,3 +1,6 @@
-$('DIV#red_header').click(function () {
-  $('HEADER').addClass('red');
+const $headerElem = $('header');
+const $divRedHeader = $('div#red_header');
+
+$divRedHeader.on('click', function () {
+  $headerElem.addClass('red');
 });
